@@ -1,8 +1,8 @@
-# 📊 Transaction Analysis and Visualisation
+# 📊 Transaction Analysis and Visualisation Program
 
 **UEEN1043 Assignment – Group 17 (P2)**
 
-**Authors:**
+**Written By:**
 
 * CHIEW WEI HENG (2304580)
 * TAN POULNY (2303710)
@@ -11,7 +11,7 @@
 
 ## 📌 Overview
 
-This project analyzes financial transaction data to identify patterns, detect fraud trends, and visualize key insights.
+This project analyzes financial transaction data to identify patterns, detect fraud trends, and generate visualizations based on processed data.
 
 The program performs:
 
@@ -21,11 +21,10 @@ The program performs:
 * Generation of visual insights through graphs
 
 ---
-
+To use this program, several requirements must be met:
 ## 📁 Required Files
 
-Ensure the following CSV files are in the same directory as the Python script:
-
+You are to ensure the following CSV files are in the same directory as the Python script:
 * `transactions.csv` – Raw transaction data
 * `merchant_codes.csv` – Merchant category mappings
 * `fraud.csv` – Fraud status information
@@ -33,18 +32,16 @@ Ensure the following CSV files are in the same directory as the Python script:
 ---
 
 ## ⚙️ Requirements
-
-Install the required Python libraries before running:
-
-```bash
-pip install pandas matplotlib
-```
-
----
+1. Install Anaconda Distribution (Python Toolkit including libraries)
+   Link: https://www.anaconda.com/download
+2. Install Spyder IDE
+   Link: https://www.spyder-ide.org/download?os=windows&arch=x64
+3. When download completes, follow the installer steps to complete setup
+4. Launch Spyder IDE
 
 ## ▶️ How to Run
 
-1. Place all required CSV files in the same folder as the script
+1. Place all required CSV files in the same folder as the script (suggested: Desktop)
 2. Run the Python program:
 
 ```bash
@@ -93,7 +90,7 @@ Displays:
 
 ### 5. Visualisation Output
 
-The program generates **5 PNG graphs**:
+The program generates **5 graphs in PNG format**:
 
 1. `1_Average Transaction Per Date.png`
 2. `2_Fraud Rate by Hour of Day.png`
@@ -101,6 +98,7 @@ The program generates **5 PNG graphs**:
 4. `4_Debit Credit by Fraud.png`
 5. `5_Top 5 Fraud Business.png`
 
+You may then find the respective image files at Desktop.
 ---
 
 ## 📈 Interpretation of Results
@@ -111,14 +109,14 @@ The program generates **5 PNG graphs**:
 * Sudden spikes may indicate:
 
   * High-value transactions
-  * Possible fraud bursts
+  * Possible fraud increment
 
 ---
 
 ### 2. Fraud Rate (%) by Hour of Day
 
-* Identifies high-risk hours
-* Fraud often occurs during **late-night or low-activity hours**
+* Identifies the hours of highest risk
+* It can be observed that fraud often occurs during **late-night or low-activity hours** 
 
 ---
 
@@ -128,22 +126,22 @@ The program generates **5 PNG graphs**:
 
   * Fraudulent
   * Legitimate
-  * Unknown transactions
+  * and Unknown transactions
 
-👉 High fraud percentage may indicate system risk
+👉 High fraud percentage may indicate high system risk
 
 ---
 
 ### 4. Debit vs Credit by Fraud Status
 
-* Compares fraud across transaction types
-* Fraud is often more common in **debit transactions**
+* Compares fraud across different transaction types
+* Fraud often happens for **debit transactions**
 
 ---
 
 ### 5. Top 5 Business Types by Fraudulent Amount
 
-* Highlights industries most affected by fraud
+* Highlights those industries most affected by fraud
 * Indicates potentially vulnerable sectors
 
 ---
@@ -151,8 +149,8 @@ The program generates **5 PNG graphs**:
 ## ⚠️ Notes & Limitations
 
 * Missing data is labeled as **"Unknown"**
-* Results depend on dataset quality
-* Not a real-time fraud detection system
+* Results depend on the quality of dataset provided
+* This is not a real time fraud detection system
 
 ---
 
@@ -162,12 +160,7 @@ This project demonstrates how transaction data can be:
 
 * Cleaned and structured
 * Analyzed for fraud detection
-* Visualized for decision-making
+* Visualized for efficient decision making
 
 ---
 
-## 📌 Future Improvements
-
-* Add machine learning for fraud prediction
-* Real-time monitoring system
-* Interactive dashboards (e.g., Plotly, Streamlit)
