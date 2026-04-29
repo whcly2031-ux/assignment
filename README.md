@@ -37,12 +37,7 @@ You are to ensure the following CSV files are in the same directory as the Pytho
 
 ## ▶️ How to Run
 1. Place all required CSV files in the same folder as the script (suggested: Desktop)
-2. Run the Python program:
-
-```bash
-python your_script_name.py
-```
-
+2. In Spyder IDE, open and run this Python program.
 3. If files are missing, the program will display:
 
 ```text
