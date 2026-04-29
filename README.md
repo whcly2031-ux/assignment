@@ -3,14 +3,12 @@
 **UEEN1043 Assignment – Group 17 (P2)**
 
 **Written By:**
-
 * CHIEW WEI HENG (2304580)
 * TAN POULNY (2303710)
 
 ---
 
 ## 📌 Overview
-
 This project analyzes financial transaction data to identify patterns, detect fraud trends, and generate visualizations based on processed data.
 
 The program performs:
@@ -23,14 +21,12 @@ The program performs:
 ---
 To use this program, several requirements must be met:
 ## 📁 Required Files
-
 You are to ensure the following CSV files are in the same directory as the Python script:
 * `transactions.csv` – Raw transaction data
 * `merchant_codes.csv` – Merchant category mappings
 * `fraud.csv` – Fraud status information
 
 ---
-
 ## ⚙️ Requirements
 1. Install Anaconda Distribution (Python Toolkit including libraries)
    Link: https://www.anaconda.com/download
@@ -40,7 +36,6 @@ You are to ensure the following CSV files are in the same directory as the Pytho
 4. Launch Spyder IDE
 
 ## ▶️ How to Run
-
 1. Place all required CSV files in the same folder as the script (suggested: Desktop)
 2. Run the Python program:
 
@@ -82,7 +77,6 @@ File Not Found! Please insert the files in the same folder with this program.
 ### 4. Analysis & Summary
 
 Displays:
-
 * Total transactions
 * Debit vs Credit counts
 * Fraud distribution
@@ -91,7 +85,6 @@ Displays:
 ### 5. Visualisation Output
 
 The program generates **5 graphs in PNG format**:
-
 1. `1_Average Transaction Per Date.png`
 2. `2_Fraud Rate by Hour of Day.png`
 3. `3_Fraud Distribution.png`
@@ -107,7 +100,6 @@ You may then find the respective image files at Desktop.
 
 * Shows spending trends over time
 * Sudden spikes may indicate:
-
   * High-value transactions
   * Possible fraud increment
 
@@ -123,7 +115,6 @@ You may then find the respective image files at Desktop.
 ### 3. Overall Fraud Distribution
 
 * Displays proportion of:
-
   * Fraudulent
   * Legitimate
   * and Unknown transactions
@@ -147,20 +138,9 @@ You may then find the respective image files at Desktop.
 ---
 
 ## ⚠️ Notes & Limitations
-
 * Missing data is labeled as **"Unknown"**
 * Results depend on the quality of dataset provided
 * This is not a real time fraud detection system
-
----
-
-## ✅ Conclusion
-
-This project demonstrates how transaction data can be:
-
-* Cleaned and structured
-* Analyzed for fraud detection
-* Visualized for efficient decision making
 
 ---
 
