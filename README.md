@@ -103,7 +103,6 @@ You may then find the respective image files at Desktop.
 ### 2. Fraud Rate (%) by Hour of Day
 
 * Identifies the hours of highest risk
-* It can be observed that fraud often occurs during **late-night or low-activity hours** 
 
 ---
 
@@ -121,7 +120,6 @@ You may then find the respective image files at Desktop.
 ### 4. Debit vs Credit by Fraud Status
 
 * Compares fraud across different transaction types
-* Fraud often happens for **debit transactions**
 
 ---
 
